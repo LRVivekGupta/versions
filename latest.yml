@@ -1,7 +1,7 @@
 services:
   lrctl:
     image: gcr.io/lrcollection/lrctl
-    version: 5.1.0
+    version: 5.1.1
   open-collector:
     image: gcr.io/lrcollection/opencollector
     version: 5.1.0
@@ -16,7 +16,7 @@ services:
     version: 5.0.1
   s3beat:
     image: gcr.io/lrcollection/beats/s3beat
-    version: 5.0.2
+    version: 5.0.4
   pubsubbeat:
     image: gcr.io/lrcollection/beats/pubsubbeat
     version: 5.0.1
@@ -28,7 +28,7 @@ services:
     version: 5.0.1
   ciscoampbeat:
     image: gcr.io/lrcollection/beats/ciscoampbeat
-    version: 5.0.0
+    version: 5.0.1
 utilities:
   lrjq:
     image: gcr.io/lrcollection/lrjq
